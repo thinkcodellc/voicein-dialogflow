@@ -1,0 +1,52 @@
+{
+  "description": "VoiceIn Support agent",
+  "language": "en",
+  "shortDescription": "Support and CRM related conversations",
+  "examples": "User: Who created you?\nUser: Tell your developers I love you.\nUser: Report bug: It\u0027s not working!\nUser: What\u0027s your Facebook page?\nUser: I want to join the beta testing group.\nUser: Search for your developers phone number.\nUser: What\u0027s your developers email?\nUser: Do you have Instagram account?",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "newagent-c9442",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "835a26cd-e9b3-47d8-b33f-ecb0b1d8a35a"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [
+    "es"
+  ],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [
+    "projects/support-eca74/knowledgeBases/MTE4OTMxOTczNzUzMjc0MzY4MDA",
+    "projects/support-eca74/knowledgeBases/MzMwMDc1MTQ5ODc2OTU5NjQxNg"
+  ],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

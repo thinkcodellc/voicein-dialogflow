@@ -1,0 +1,32 @@
+{
+  "id": "40cc97c4-0bc3-45a8-ae2d-0ab5bf5901ff",
+  "name": "Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sorry! Didn\u0027t get that! How can I help you today?",
+            "Sorry, I dont have answer for that! Can you try asking in a different way perhaps?",
+            "I didn\u0027t get that! Could you rephrase the question so that I can assist you better?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
